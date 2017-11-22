@@ -4,7 +4,7 @@
 
  Gas velocities can be computed for single lines (e.g. H alpha, [SII], [NII], etc), or by stacking several emission lines in a specific wavelength range, achieving better sampling
 
-#Examples.
+Examples.
 
 1. Starting from a fully reduced MUSE datacube (DATA extension), make an H alpha velocity map in a range [-300,300] km/s and process the fit on 2 cores
 
@@ -23,8 +23,8 @@ python musevel_run.py path_to_cube/cube_name.fits stacked [-300,300] 2
 
 
 
-#Available lines: SII6717, SII6731, Ha, NII6548, NII6584, Hb, OIII5007, SIII9068, OI6300
+Available lines: SII6717, SII6731, Ha, NII6548, NII6584, Hb, OIII5007, SIII9068, OI6300
 
 The stacked version stacks 7 emission lines in the 6300-67500 Angstrom range ([NII]6548, [NII]6584, H alpha, [SII]6717, [SII]6731, [HeI]6678 and [OI]6300). The assumtion is that all the lines are emitted from the same region.
 
-#Please contact me for new line requests!
+Please contact me for new line requests!
