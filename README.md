@@ -1,7 +1,7 @@
 # MUSE-gas-velocities: given a MUSE data cube, compute gas velocities on a pixel-by-pixel base. This code is a scripted version of the MUSE examples on http://pyspeckit.readthedocs.io/.
 
 
- If you are using this code, please cite http://adsabs.harvard.edu/abs/2015MNRAS.450.1057M for the method, Pyspeckit (http://pyspeckit.readthedocs.io/), and ... for this code.
+ If you are using this code, please cite http://adsabs.harvard.edu/abs/2015MNRAS.450.1057M for the method, Pyspeckit (http://pyspeckit.readthedocs.io/), and https://zenodo.org/badge/latestdoi/111626913 for this code.
 
  Gas velocities can be computed for single lines (e.g. H alpha, [SII], [NII], etc), or by stacking several emission lines in a specific wavelength range, achieving better sampling
 
