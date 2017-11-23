@@ -9,17 +9,17 @@ Examples.
 
 1. Starting from a fully reduced MUSE datacube (DATA extension), make an H alpha velocity map in a range [-300,300] km/s and process the fit on 2 cores
 
-python musevel_run.py path_to_cube/cube_name.fits Halpha [-300,300] 2
+  python musevel_run.py path_to_cube/cube_name.fits Halpha [-300,300] 2
 
 
 2. Make a [SII] velocity map
 
-python musevel_run.py path_to_cube/cube_name.fits SII6717 [-300,300] 2
+  python musevel_run.py path_to_cube/cube_name.fits SII6717 [-300,300] 2
 
 
 3. Make a stacked map
 
-python musevel_run.py path_to_cube/cube_name.fits stacked [-300,300] 2
+  python musevel_run.py path_to_cube/cube_name.fits stacked [-300,300] 2
 
 
 
